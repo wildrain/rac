@@ -1,0 +1,64 @@
+/* CTA */
+
+.cta {
+	position: relative;
+	padding: 60px 0;
+	background: url(../img/cta-bg.jpg) no-repeat center;
+	background-size: cover;
+
+	#overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(254, 198, 1, 0.85);
+		z-index: 0;
+	}
+
+	h3 {
+		margin: 0;
+		line-height: 40px;
+
+		.color {
+			color: @white;
+		}
+
+		@media(max-width: @screen-sm) {
+			margin-bottom: 20px;
+		}
+	}
+
+	.text-right {
+
+		@media(max-width: @screen-sm) {
+			text-align: left !important;
+		}
+	}
+
+	.button-login {
+		display: inline-block;
+
+		.btn {
+			background: @white;
+
+			&:hover {
+				background: @gray-light;
+			}
+		}
+	}
+
+	.button-register {
+		margin-left: 16px;
+		display: inline-block;
+
+		.btn {
+			color: @white;
+			background: @gray-dark;
+
+			&:hover {
+				background: darken(@yellow, 2%);
+			}
+		}
+	}
+}

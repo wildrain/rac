@@ -1,0 +1,459 @@
+<wpml-config>
+
+	<custom-fields> 
+		
+		<custom-field action="copy">uou_bookable_main_cost</custom-field>
+		<custom-field action="copy">_autorent_testimonial_author_name</custom-field>
+		<custom-field action="copy">_autorent_testimonial_author_designation</custom-field>
+		<custom-field action="copy">_autorent_testimonial_author_company</custom-field>
+
+		
+		<custom-field action="copy">_autorent_add_attribute</custom-field>
+		<custom-field action="copy">_autorent_block_style_background_color</custom-field>
+		<custom-field action="copy">_autorent_block_style_background_image</custom-field>
+
+
+		<custom-field action="copy">_autorent_company_location_email</custom-field>			
+		<custom-field action="copy">_autorent_company_location_fax</custom-field>			
+		<custom-field action="copy">_autorent_company_location_field</custom-field>			
+		<custom-field action="copy">_autorent_company_location_field_1</custom-field>			
+		<custom-field action="copy">_autorent_company_location_field_2</custom-field>			
+		<custom-field action="copy">_autorent_company_location_icon</custom-field>			
+		<custom-field action="copy">_autorent_company_location_phone</custom-field>			
+		<custom-field action="copy">_autorent_company_location_place</custom-field>			
+		<custom-field action="copy">_autorent_company_location_website</custom-field>			
+		<custom-field action="copy">_autorent_contact_address</custom-field>			
+		<custom-field action="copy">_autorent_driver_designation</custom-field>			
+		<custom-field action="copy">_autorent_driver_experience</custom-field>			
+		<custom-field action="copy">_autorent_driver_language</custom-field>			
+		<custom-field action="copy">_autorent_driver_name</custom-field>			
+		<custom-field action="copy">_autorent_driver_special_training</custom-field>			
+		<custom-field action="copy">_autorent_front_page_selected_block</custom-field>			
+		<custom-field action="copy">_autorent_pricing_table</custom-field>			
+		<custom-field action="copy">_autorent_property_address_convert_zip</custom-field>			
+		<custom-field action="copy">_autorent_property_address_country_name</custom-field>			
+		<custom-field action="copy">_autorent_property_address_lat</custom-field>			
+		<custom-field action="copy">_autorent_property_address_lng</custom-field>			
+		<custom-field action="copy">_autorent_property_address_map_canvas</custom-field>			
+		<custom-field action="copy">_autorent_property_address_name</custom-field>			
+		<custom-field action="copy">_autorent_property_address_page_templates</custom-field>			
+		<custom-field action="copy">_autorent_property_address_region_name</custom-field>			
+		<custom-field action="copy">_autorent_property_address_zip</custom-field>			
+		<custom-field action="copy">_autorent_search_form_type</custom-field>			
+		<custom-field action="copy">_autorent_testimonial_author_address</custom-field>
+
+
+
+
+
+		<custom-field action="copy">_autorent_block_type</custom-field>
+		<custom-field action="copy">_autorent_testimonial_author_designation</custom-field>
+		<custom-field action="copy">_autorent_testimonial_author_company</custom-field>
+
+		
+		<custom-field action="copy">_autorent_add_attribute</custom-field>
+		<custom-field action="copy">_autorent_block_style_background_color</custom-field>
+		<custom-field action="copy">_autorent_block_style_background_image</custom-field>
+
+
+
+
+		<custom-field action="copy">_autorent_testimonial_author_rating</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_additional_people_capacity</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_age</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_fuel_capacity</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_max_speed</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_max_weight</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_people_capacity</custom-field>			
+		<custom-field action="copy">_autorent_vehicle_pilots</custom-field>
+
+
+
+	</custom-fields>
+	
+	<custom-types>
+		<custom-type translate="1">block</custom-type>
+		<custom-type translate="1">testimonial</custom-type>		
+		<custom-type translate="1">company_location</custom-type>
+	</custom-types>
+
+	<taxonomies>
+		<taxonomy translate="1">car_type</taxonomy>
+		<taxonomy translate="1">car_brand</taxonomy>
+		<taxonomy translate="1">car_model</taxonomy>
+		<taxonomy translate="1">amenity</taxonomy>
+		<taxonomy translate="1">state</taxonomy>
+		<taxonomy translate="1">city</taxonomy>	
+		<taxonomy translate="1">airport</taxonomy>
+		<taxonomy translate="1">return_location</taxonomy>
+		<taxonomy translate="1">reservation_type</taxonomy>				
+	</taxonomies>
+	
+    <admin-texts>
+		<key name="autorent_option_data">			
+			<key name="autorent-favicon">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+			<key name="autorent-favicon-iphone">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+			<key name="autorent-favicon-ipad">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent-custom-css"/>
+			<key name="autorent-custom-js"/>
+			<key name="testimonial-type"/>
+			<key name="autorent-header-icon">
+				<key name="1">
+					<key name="url"/>
+					<key name="height"/>
+					<key name="width"/>
+					<key name="thumbnail"/>					
+				</key>				
+			</key>
+			<key name="autorent-share-button"/>
+			<key name="autorent-share-button-facebook"/>
+			<key name="autorent-share-button-twitter"/>
+			<key name="autorent-share-button-linkedin"/>
+			<key name="autorent-top-language"/>
+			<key name="autorent-language">
+				<key name="1">
+					<key name="EN" />
+					<key name="DE" />
+					<key name="IT" />
+					<key name="FR" />					
+				</key>				
+			</key>
+			<key name="autorent-wpml-select"/>
+			<key name="autorent-login-option"/>
+			<key name="autorent-home-page-banner-image">
+				<key name="1">
+					<key name="url"/>
+					<key name="height"/>
+					<key name="width"/>
+					<key name="thumbnail"/>					
+				</key>				
+			</key>
+			<key name="autorent-home-page-slider">
+				<key name="1">
+					<key name="title" />
+					<key name="description" />
+					<key name="url" />
+					<key name="sort" />	
+					<key name="attachment_id" />
+					<key name="thumb" />
+					<key name="image" />	
+					<key name="height" />
+					<key name="width" />				
+				</key>				
+			</key>
+			
+			<key name="autorent-general-banner">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent-general-banner-color">
+				<key name="1">
+					<key name="color"/>
+					<key name="alpha"/>					
+				</key>				
+			</key>
+
+
+			<key name="autorent-product-banner">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent-general-banner-color">
+				<key name="1">
+					<key name="color"/>
+					<key name="alpha"/>					
+				</key>				
+			</key>
+
+			<key name="autorent-frontpage-banner">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent-frontpage-banner-color">
+				<key name="1">
+					<key name="color"/>
+					<key name="alpha"/>					
+				</key>				
+			</key>
+
+			<key name="autorent-contact-banner">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+			<key name="autorent-contact-banner-color">
+				<key name="1">
+					<key name="color"/>
+					<key name="alpha"/>					
+				</key>				
+			</key>
+
+			<key name="autorent-defaultpage-banner">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+			<key name="autorent-defaultpage-banner-color">
+				<key name="1">
+					<key name="color"/>
+					<key name="alpha"/>					
+				</key>				
+			</key>
+
+			<key name="autorent-rental-experience-switch"/>
+			<key name="autorent-rental-experience-bg">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent-rental-experience-part1text"/>
+			<key name="autorent-rental-experience-part2text"/>
+			<key name="autorent-rental-experience-readmore-button-text"/>
+			<key name="autorent-rental-experience-readmore-button-url"/>
+			<key name="autorent-rental-experience-purchase-button-url"/>
+			<key name="autorent-rental-experience-purchase-button-text"/>
+
+
+			<key name="autorent-service-feature-switch"/>
+			<key name="autorent-service-features-slides">
+				<key name="1">
+					<key name="title" />
+					<key name="description" />
+					<key name="url" />
+					<key name="sort" />	
+					<key name="attachment_id" />
+					<key name="thumb" />
+					<key name="image" />	
+					<key name="height" />
+					<key name="width" />				
+				</key>				
+			</key>
+
+			<key name="autorent-partners-switch"/>
+			<key name="autorent-our-partners">
+				<key name="1">
+					<key name="title" />
+					<key name="description" />
+					<key name="url" />
+					<key name="sort" />	
+					<key name="attachment_id" />
+					<key name="thumb" />
+					<key name="image" />	
+					<key name="height" />
+					<key name="width" />				
+				</key>				
+			</key>
+
+			<key name="autorent_get_started_name_change"/>
+			<key name="autorent-car-switch"/>
+			<key name="autorent_our_car_name_change"/>
+			<key name="autorent-tab-select"/>
+			<key name="autorent-brands-switch"/>
+			<key name="autorent_brand_name_change"/>
+			<key name="autorent-location-switch"/>
+			<key name="autorent_location_name_change"/>
+			
+			<key name="autorent-our-brands">
+				<key name="1">
+					<key name="title" />
+					<key name="description" />
+					<key name="url" />
+					<key name="sort" />	
+					<key name="attachment_id" />
+					<key name="thumb" />
+					<key name="image" />	
+					<key name="height" />
+					<key name="width" />				
+				</key>				
+			</key>
+
+
+
+			<key name="autorent-social-profile"/>	 
+			<key name="autorent-facebook-profile"/>	 
+			<key name="autorent-twitter-profile"/>	 
+			<key name="autorent-google-profile"/> 
+			<key name="autorent-linkedin-profile"/> 
+			<key name="autorent-pinterest-profile"/> 
+			<key name="autorent-select-search-page"/>
+			<key name="autorent_bookcar_chage_name"/>
+			<key name="autorent_buycar_chage_name"/>
+			<key name="autorent_location_switch"/>
+
+			<key name="autorent_location_chage_name"/>
+
+			<key name="autorent-select-search-page"/>
+		    <key name="autorent_select_template_view"/>
+		    <key name="autorent_quick_search_placeholder"/>
+		    <key name="autorent_listing_hireon_data"/>
+		    <key name="autorent_listing_returnon_data"/>
+		    <key name="autorent_booktype_switch"/>
+		    <key name="autorent_buytype_switch"/>
+		    <key name="autorent_search_location_switch"/>
+		    <key name="autorent_location_chage_name"/>
+		    <key name="autorent_location_index"/>
+		    <key name="autoren_search_location_select"/>
+		    <key name="autorent_return_location_switch"/>
+		    <key name="autorent_return_location_chage_name"/>
+		    <key name="autoren_return_location_select"/>
+		    <key name="autorent_pickup_date_switch"/>
+		    <key name="autorent_date_index"/>
+		    <key name="autorent_pickup_date_chage_name"/>
+		    <key name="autorent_return_date_switch"/>
+		    <key name="autorent_return_date_chage_name"/>
+		    <key name="autorent_car_type_search_switch"/>
+		    <key name="autorent_car_type_search_chage_name"/>
+		    <key name="autorent_car_type_index"/>
+		    <key name="autorent_buy_car_type_index"/>
+		    <key name="autorent_car_type_search_select"/>
+		    <key name="autorent_google_map_switch"/>
+		    <key name="autorent_show_property_details_switch"/>
+		    <key name="autorent_show_booking_form_switch"/>
+		    <key name="autorent_show_resource_field_switch"/>
+		    <key name="autorent_show_person_field_switch"/>
+		    <key name="autorent_show_tab_switch"/>
+		    <key name="autorent_show_related_product_switch"/>
+		    <key name="autorent_no_of_related_product"/>
+		    <key name="autorent_quick_search_switch"/>
+		    <key name="autorent_quick_search_select_tax"/>
+		    <key name="autorent_intro_switch"/>
+		    <key name="autorent_intro_title_text"/>
+		    <key name="autorent_intro_subtitle_text"/>
+		    <key name="autorent_map_zoom_car_single_map"/>
+		    <key name="autorent_map_zoom_for_contact_page"/>
+		    <key name="autorent_map_zoom_for_essential_block"/>
+		    <key name="autorent-show-footer-widgets"/>
+		    <key name="autorent_default_sorting_options"/>
+		    <key name="autorent_multiple_sorting_options"/>
+		    <key name="autorent_car_storting_switch"/>
+
+			<key name="autorent-footer-widgets-icon">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent_footer_bg_image">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent_footer_bg_color">
+				<key name="1">
+					<key name="color" />
+					<key name="alpha" />
+					<key name="rgba" />
+				</key>				
+			</key>
+			
+		    <key name="autorent-show-footer-copyrights"/>
+		    <key name="autorent-copyright-text"/>
+		    <key name="autorent-powered-by"/>
+		    <key name="autorent-select-stylesheet"/>
+		    <key name="autorent-company-link"/>
+
+		    <key name="autorent_copyright_bg_image">
+				<key name="1">
+					<key name="url" />
+					<key name="height" />
+					<key name="width" />
+					<key name="thumbnail" />					
+				</key>				
+			</key>
+
+			<key name="autorent_copyright_bg_color">
+				<key name="1">
+					<key name="color" />
+					<key name="alpha" />
+					<key name="rgba" />
+				</key>				
+			</key>
+
+			<key name="casa-body-typography">
+				<key name="1">
+					<key name="font-family" />
+					<key name="font-options" />
+					<key name="google" />
+					<key name="font-backup" />
+					<key name="font-style" />
+					<key name="text-align" />	
+					<key name="line-height" />	
+					<key name="color" />					
+				</key>				
+			</key>
+			<key name="casa-header-typography">
+				<key name="1">
+					<key name="font-family" />
+					<key name="font-options" />
+					<key name="google" />
+					<key name="font-backup" />
+					<key name="font-style" />
+					<key name="text-align" />	
+					<key name="line-height" />	
+					<key name="color" />					
+				</key>				
+			</key>
+
+			<key name="REDUX_last_saved"/>
+		    <key name="REDUX_LAST_SAVE"/>
+		    <key name="REDUX_COMPILER"/>
+		    <key name="REDUX_LAST_COMPILER"/>
+			
+		</key>
+    </admin-texts>
+
+</wpml-config>

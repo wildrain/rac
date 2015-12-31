@@ -1,0 +1,163 @@
+/* FOOTER */
+
+#footer {
+  position: relative;
+
+  .footer-top {
+  	padding: 30px 0 30px 0;
+  	background: @gray-dark;
+
+  	.widget {
+  		margin: 30px 0;
+
+  		.title {
+  			margin: 0 0 40px 0;
+  			color: @white;
+  		}
+
+  		p {
+  			color: @white;
+  			line-height: 30px;
+  		}
+
+  		.logo {
+  			margin-bottom: 60px;
+  			display: inline-block;
+
+  			@media (max-width: @screen-lg-desktop) {
+  				margin-bottom: 20px;
+  			}
+  		}
+
+  		.social {
+  			margin-top: 20px;
+	  		display: inline-block;
+	  		vertical-align: top;
+
+	  		li {
+	  			padding: 0;
+	  			margin-left: 20px;
+	  			float: left;
+	  			width: 40px;
+	  			height: 40px;
+	  			line-height: 40px;
+	  			text-align: center;
+
+	  			a {
+	  				display: block;
+	  				background: @white;
+
+	  				&:hover {
+	  					background: @yellow;
+	  				}
+
+
+	  				i {
+	  					color: @gray-dark;
+	  				}
+	  			}
+	  		}
+
+	  		@media (max-width: @screen-lg-desktop) {
+  				margin-bottom: 20px;
+
+  				li {
+  					margin: 0 20px 0 0;
+  				}
+  			}
+
+  			@media (max-width: @screen-desktop) {
+
+  				li {
+  					margin: 0 0 0 20px;
+  				}
+  			}
+	  	}
+
+	  	&.contact {
+	  		background: url(../img/map-footer.png) no-repeat center;
+	  	}
+
+	  	.contact-info {
+	  		position: relative;
+	  		margin: 10px 0 30px 0;
+
+	  		li {
+	  			margin-bottom: 10px;
+
+	  			i {
+	  				color: @yellow;
+	  				font-size: 20px;
+	  			}
+
+	  			span {
+	  				padding-left: 15px;
+	  				color: @yellow;
+	  				font-size: 18px;
+	  				text-transform: none;
+	  				font-weight: 500;
+
+	  				&:hover {
+	  					color: @white;
+	  				}
+	  			}
+	  		}
+	  	}
+
+	  	.location {
+	  		background: @yellow;
+	  	}
+
+	  	.recent-posts {
+	  		position: relative;
+
+	  		li {
+	  			position: relative;
+	  			margin-bottom: 10px;
+
+	  			a {
+	  				padding: 20px 45px 20px 20px;
+	  				display: block;
+	  				color: @yellow;
+	  				font-weight: 400;
+	  				font-family: 'open sans',serif;
+	  				text-transform: none;
+	  				background: darken(@gray-dark, 10%);
+
+	  				&:hover .icon-ahead {
+	  					background: @yellow;
+	  				}
+
+	  				.icon-ahead {
+							position: absolute;
+							right: 15px;
+							top: 15px;
+							display: inline-block;
+							width: 30px;
+							height: 30px;
+							text-align: center;
+							line-height: 30px;
+							background: @white;
+							.transition(all .2s ease-in-out); 
+
+							i {
+								color: @gray-dark;
+							}
+						}
+	  			}
+	  		}
+	  	}
+  	}
+  }
+
+  .footer-copyrights {
+  	padding: 33px 0;
+  	background: darken(@gray-dark, 10%);
+
+  	h5 {
+  		margin: 0;
+  		font-size: 12px;
+  		color: lighten(@gray-dark, 20%);
+  	}
+  }
+}

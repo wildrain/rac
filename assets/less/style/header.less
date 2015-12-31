@@ -1,0 +1,254 @@
+/* HEADER */
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: @gray-dark;
+  z-index: 999;
+
+  .header-toolbar-left {
+  	position: relative;
+  	float: left;
+
+  	.header-logo {
+  		float: left;
+  		width: 80px;
+  		height: 80px;
+
+  		img {
+  			width: 100%;
+  			height: 100%;
+  		}
+  	}
+
+  	.header-logo-icon {
+  		float: left;
+  		width: 80px;
+  		height: 80px;
+  		text-align: center;
+  		line-height: 80px;
+  		background: @yellow;
+
+  		.fa {
+  			line-height: 80px;
+  		}
+  	}
+
+  	.social {
+  		padding: @padding-large-vertical*2 0;
+      float: left;
+
+  		li {
+  			padding: 0;
+  			margin-left: 20px;
+  			float: left;
+  			width: 40px;
+  			height: 40px;
+  			line-height: 40px;
+  			text-align: center;
+
+  			a {
+  				display: block;
+  				background: @white;
+
+  				&:hover {
+  					background: @yellow;
+  				}
+
+
+  				i {
+  					color: @gray-dark;
+  				}
+  			}
+  		}
+  	}
+  }
+
+  .header-toolbar-right {
+  	float: right;
+  	text-align: right;
+
+  	.navigation {
+  		display: inline-block;
+
+  		li {
+  			padding: 30px 60px 30px 0;
+
+  			a {
+  				color: @white;
+  				font-size: 12px;
+
+  				&:hover {
+  					color: @yellow;
+  				}
+
+  				&.active {
+  					color: @yellow;
+  				}
+  			}
+  		}
+
+      @media (max-width: 1400px) {
+        li {
+          padding: 30px 30px 30px 0;
+        }
+      }
+
+      @media (max-width: @screen-lg) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        text-align: left;
+        display: none;
+        background: @gray-dark;
+
+        ul {
+          margin: 0 auto;
+          max-width: 300px;
+
+          li {
+            padding: 15px 30px 15px 0px;
+            display: block;
+          }
+        }
+      }
+  	}
+
+  	.header-language {
+  		position: relative;
+      padding: 30px 0;
+  		display: inline-block;
+
+  		a {
+  			color: @white;
+  			text-transform: none;
+  		}
+
+  		&.active ul {
+  			visibility: visible;
+				opacity: 1;
+				transform: translateY(0px);
+  		}
+
+  		ul {
+  			position: absolute;
+				top: 80px;
+				left: 0;
+				z-index: 999;
+				margin: 0px;
+				visibility: hidden;
+				opacity: 0;
+				transition: all 0.3s ease 0s;
+
+				li {
+					text-align: center;
+					background: @gray-dark;
+
+          &:hover a {
+            color: @yellow;
+          }
+
+					a {
+						padding: @padding-base-vertical @padding-base-horizontal;
+						display: inline-block;
+						color: @white;
+					}
+				}
+  		}
+  	}
+
+  	.header-cta-buttons {
+  		position: relative;
+      padding: 18px 0;
+  		display: inline-block;
+
+  		.header-login {
+  			margin-left: 16px;
+  			display: inline-block;
+
+  			.btn {
+  				background: @white;
+
+  				&:hover {
+  					background: @gray-light;
+  				}
+  			}
+
+        &.active div > form {
+          display: block;
+          transform: translateY(0px);
+        }
+
+        div > form {
+          position: absolute;
+          padding: 20px;
+          right: 0;
+          top: 78px;
+          display: none;
+          width: 250px;
+          background: @gray-dark;
+
+          a {
+            text-align: right;
+            color: @white;
+          }
+        }
+  		}
+
+  		.header-register {
+  			margin: 0 20px 0 16px;
+  			display: inline-block;
+
+  			.btn {
+  				background: @yellow;
+
+  				&:hover {
+  					background: darken(@yellow, 2%);
+  				}
+  			}
+
+        &.active div > form {
+          display: block;
+        }
+
+        div > form {
+          position: absolute;
+          padding: 20px;
+          right: 0;
+          top: 78px;
+          display: none;
+          width: 250px;
+          background: @gray-dark;
+
+          a {
+            text-align: right;
+            color: @white;
+          }
+        }
+  		}
+  	}
+
+    .toggle {
+      margin: 0 20px 0 -4px;
+      width: 42px;
+      height: 42px;
+      display: none;
+      text-align: center;
+      line-height: 42px;
+      border: none;
+      background: @white;
+
+      i {
+        line-height: 42px;
+        font-size: 18px;
+      }
+
+      @media (max-width: @screen-lg) {
+        display: inline-block;
+      }
+    }
+  }
+}

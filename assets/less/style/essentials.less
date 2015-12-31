@@ -1,0 +1,128 @@
+/* ESSENTIALS */
+
+.essentials {
+	position: relative;
+	padding: 100px 0;
+
+	.heading {
+		margin-bottom: 70px;
+	}
+
+	.nav-tabs li {
+
+		&.active a {
+			background: @yellow;
+		}
+
+		a {
+			background: lighten(@gray-light, 5%);
+		}
+
+		@media (max-width: @screen-sm) {
+			margin-right: 0;
+			float: none;
+			width: 100%;
+
+			a {
+				float: none;
+				display: block;
+			}
+		}
+	}
+
+	.tab-content {
+		padding: 30px 30px 0 30px;
+		float: left;
+		width: 100%;
+		background: lighten(@gray-light, 5%);
+
+		.essentials-filters {
+			position: relative;
+			margin-bottom: 30px;
+
+			li {
+				padding: 0;
+				margin-right: 20px;
+				float: left;
+				list-style-type: none;
+
+				a {
+					padding: 11px 18px;
+					float: left;
+					background: @white;
+					cursor: pointer;
+
+					&:hover {
+						background: @yellow;
+					}
+
+					&.active {
+						background: @yellow;
+					}
+				}
+
+				@media (max-width: @screen-sm) {
+					margin-bottom: 10px;
+					margin-right: 0;
+					float: none;
+					width: 100%;
+
+					a {
+						float: none;
+						display: block;
+					}
+				}
+			}
+		}
+
+		.essentials-filters-content {
+			float: left;
+			width: 100%;
+		}
+
+		.vechicle {
+			position: relative;
+			margin-bottom: 30px;
+
+			figure img {
+				width: 100%;
+				height: 100%;
+			}
+
+			figcaption {
+				padding: 20px;
+				background: @white;
+				border-bottom: 2px solid darken(@gray-light, 5%);
+
+				&:hover h5 {
+					color: @yellow;
+				}
+
+				h5 {
+					margin-top: 0;
+					font-weight: 700;
+					.transition(all .2s ease-in-out); 
+				}
+
+				.price {
+					color: @green;
+					font-weight: 700;
+					text-transform: uppercase;
+					font-family: @headings-font-family;
+				}
+
+				.per {
+					color: darken(@gray-light, 10%);
+					font-weight: 700;
+					text-transform: uppercase;
+					font-family: @headings-font-family;
+
+					&:before {
+						padding-right: 3px;
+						content: "/";
+					}
+				}
+			}
+		}
+	}
+}

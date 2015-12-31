@@ -1,0 +1,2 @@
+[10-Dec-2015 17:18:01 UTC] PHP Fatal error:  Call to undefined function get_header() in C:\Inetpub\vhosts\imperial-rac.com\httpdocs\wp-content\themes\autorent\index.php on line 2
+[14-Dec-2015 14:55:02 UTC] PHP Fatal error:  Call to undefined function get_header() in C:\Inetpub\vhosts\imperial-rac.com\httpdocs\wp-content\themes\autorent\index.php on line 2

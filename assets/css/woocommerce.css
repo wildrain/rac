@@ -1,0 +1,124 @@
+
+
+
+.woocommerce #reviews #comments ol.commentlist ul.children .star-rating, .woocommerce-page #reviews #comments ol.commentlist ul.children .star-rating {
+    display: none;
+}
+
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: 'star'}
+.woocommerce .star-rating:before, .woocommerce-page .star-rating:before {
+    content: "\73\73\73\73\73";
+    color: #dfdbdf;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.woocommerce .star-rating span, .woocommerce-page .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+    color: #1E2E42;
+}
+.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.woocommerce .woocommerce-product-rating, .woocommerce-page .woocommerce-product-rating {
+    line-height: 2em;
+    display: block;
+}
+.woocommerce .woocommerce-product-rating .star-rating, .woocommerce-page .woocommerce-product-rating .star-rating {
+    margin: .5em 4px 0 0;
+    float: left;
+}
+.woocommerce .products .star-rating, .woocommerce-page .products .star-rating {
+    display: block;
+    margin: 0 0 .5em;
+    float: none;
+}
+.woocommerce .hreview-aggregate .star-rating, .woocommerce-page .hreview-aggregate .star-rating {
+    margin: 10px 0 0 0;
+}
+
+
+
+.woocommerce p.stars, .woocommerce-page p.stars {
+    position: relative;
+    font-size: 1em;
+}
+.woocommerce p.stars a, .woocommerce-page p.stars a {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 1em;
+    text-indent: -9999px;
+    position: relative;
+}
+.woocommerce p.stars a:last-child, .woocommerce-page p.stars a:last-child {
+    border-right: 0;
+}
+.woocommerce p.stars a.star-1, .woocommerce p.stars a.star-2, .woocommerce p.stars a.star-3, .woocommerce p.stars a.star-4, .woocommerce p.stars a.star-5, .woocommerce-page p.stars a.star-1, .woocommerce-page p.stars a.star-2, .woocommerce-page p.stars a.star-3, .woocommerce-page p.stars a.star-4, .woocommerce-page p.stars a.star-5 {
+    border-right: 1px solid #ccc;
+}
+.woocommerce p.stars a.star-1:after, .woocommerce p.stars a.star-2:after, .woocommerce p.stars a.star-3:after, .woocommerce p.stars a.star-4:after, .woocommerce p.stars a.star-5:after, .woocommerce-page p.stars a.star-1:after, .woocommerce-page p.stars a.star-2:after, .woocommerce-page p.stars a.star-3:after, .woocommerce-page p.stars a.star-4:after, .woocommerce-page p.stars a.star-5:after {
+    font-family: "WooCommerce";
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.woocommerce p.stars a.star-1, .woocommerce-page p.stars a.star-1 {
+    width: 2em;
+}
+.woocommerce p.stars a.star-1:after, .woocommerce-page p.stars a.star-1:after {
+    content: "\e021"}
+.woocommerce p.stars a.star-1:hover:after, .woocommerce p.stars a.star-1.active:after, .woocommerce-page p.stars a.star-1:hover:after, .woocommerce-page p.stars a.star-1.active:after {
+    content: "\e020"}
+.woocommerce p.stars a.star-2, .woocommerce-page p.stars a.star-2 {
+    width: 3em;
+}
+.woocommerce p.stars a.star-2:after, .woocommerce-page p.stars a.star-2:after {
+    content: "\e021\e021"}
+.woocommerce p.stars a.star-2:hover:after, .woocommerce p.stars a.star-2.active:after, .woocommerce-page p.stars a.star-2:hover:after, .woocommerce-page p.stars a.star-2.active:after {
+    content: "\e020\e020"}
+.woocommerce p.stars a.star-3, .woocommerce-page p.stars a.star-3 {
+    width: 4em;
+}
+.woocommerce p.stars a.star-3:after, .woocommerce-page p.stars a.star-3:after {
+    content: "\e021\e021\e021"}
+.woocommerce p.stars a.star-3:hover:after, .woocommerce p.stars a.star-3.active:after, .woocommerce-page p.stars a.star-3:hover:after, .woocommerce-page p.stars a.star-3.active:after {
+    content: "\e020\e020\e020"}
+.woocommerce p.stars a.star-4, .woocommerce-page p.stars a.star-4 {
+    width: 5em;
+}
+.woocommerce p.stars a.star-4:after, .woocommerce-page p.stars a.star-4:after {
+    content: "\e021\e021\e021\e021"}
+.woocommerce p.stars a.star-4:hover:after, .woocommerce p.stars a.star-4.active:after, .woocommerce-page p.stars a.star-4:hover:after, .woocommerce-page p.stars a.star-4.active:after {
+    content: "\e020\e020\e020\e020"}
+.woocommerce p.stars a.star-5, .woocommerce-page p.stars a.star-5 {
+    width: 6em;
+    border: 0;
+}
+.woocommerce p.stars a.star-5:after, .woocommerce-page p.stars a.star-5:after {
+    content: "\e021\e021\e021\e021\e021"}
+.woocommerce p.stars a.star-5:hover:after, .woocommerce p.stars a.star-5.active:after, .woocommerce-page p.stars a.star-5:hover:after, .woocommerce-page p.stars a.star-5.active:after {
+    content: "\e020\e020\e020\e020\e020"}
+
+
+
+.woocommerce ul.cart_list li .star-rating, .woocommerce ul.product_list_widget li .star-rating, .woocommerce-page ul.cart_list li .star-rating, .woocommerce-page ul.product_list_widget li .star-rating {
+    float: none;
+}

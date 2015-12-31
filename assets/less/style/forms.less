@@ -1,0 +1,129 @@
+/* FORMS */
+
+.default-form {
+
+	input {
+		padding: 0 15px;
+		height: 40px;
+		width: 100%;
+		border: 1px solid @gray-border-light;
+		background: @white;
+
+		&:focus {
+			border-color: darken(@gray-border-light, 10%);
+		}
+
+		&.full-width {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	input[type="submit"] {
+		padding: @padding-large-vertical*1.5 @padding-small-horizontal*2.5;
+		height: 50px;
+		border: none;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		background: @yellow;
+		.transition(all .2s ease-in-out); 
+
+		&:hover {
+			background: darken(@yellow, 5%);
+		}
+	}
+	
+	button {
+		padding: @padding-large-vertical*1.5 @padding-small-horizontal*2.5;
+		border: none;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		background: @yellow;
+		.transition(all .2s ease-in-out); 
+
+		&:hover {
+			background: darken(@yellow, 5%);
+		}
+	}
+
+	.checkbox-input {
+		position: relative;
+
+		input[type="checkbox"] {
+			display: none;
+		}
+
+		label {
+			display: block;
+			color: rgba(51, 51, 51, 0.5);
+
+			&:before {
+				position: relative;
+				top: 3px;
+				margin-right: 10px;
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				content: "";
+				line-height: 1em;
+				font-size: 12px;
+				text-align: center;
+				border: 1px solid @gray-border-light;
+				cursor: pointer;
+			}
+		}
+
+		&.active label:before {
+			top: -1px;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			-moz-osx-font-smoothing: grayscale;
+			content: "\f00c";
+		}
+	}
+
+	.calendar-input {
+
+		input,
+		i {
+			cursor: pointer;
+		}
+	}
+
+	.select-box {
+		position: relative;
+		cursor: pointer;
+
+		select {
+			display: none;
+		}
+
+		i {
+			position: absolute;
+			padding: 5px;
+			top: 50%;
+			right: 10px;
+			margin-top: -12px;
+		}
+
+		.select-clone {
+			position: absolute;
+			top: 29px;
+			width: 274px;
+			display: none;
+			border: 1px solid @gray-border-light;
+			border-width: 0 1px 1px 1px;
+			z-index: 9999;
+
+			li {
+				padding: 5px 15px;
+				width: 100%;
+				background: @white;
+				cursor: pointer;
+			}
+		}
+	}
+}

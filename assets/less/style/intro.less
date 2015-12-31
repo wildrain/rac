@@ -1,0 +1,183 @@
+/* INTRO */
+
+.intro {
+	position: relative;
+	padding: 80px 0;
+	background: url(../img/intro.jpg) no-repeat center;
+	background-size: cover;
+
+	.reservation {
+		position: relative;
+		width: 375px;
+
+		@media (max-width: @screen-md) {
+			margin: 0 auto;
+		}
+
+		@media (max-width: @screen-xs) {
+			width: 100%;
+		}
+
+		.reservation-form {
+			padding-top: 30px;
+			background: rgba(255,255,255,0.9);
+
+			.reservation-step {
+				position: relative;
+				padding: 0 30px 0 70px;
+				display: inline-block;
+				width: 100%;
+
+				.step-number {
+					position: absolute;
+					top: 0;
+					left: -10px;
+					width: 60px;
+					height: 60px;
+					line-height: 60px;
+					text-align: center;
+					font-size: 24px;
+					font-weight: bold;
+					background: @gray-dark;
+				}
+
+				.step-title {
+					margin-top: 20px;
+					margin-bottom: 15px;
+				}
+
+				&.location {
+					position: relative;
+					padding-bottom: 25px;
+
+					input {
+						margin-bottom: 15px;
+					}
+				}
+
+				&.date {
+					position: relative;
+					padding-bottom: 25px;
+					
+					.calendar-input {
+						position: relative;
+
+						i {
+							position: absolute;
+							padding: 5px;
+							top: 50%;
+							right: 10px;
+							margin-top: -12px;
+						}
+					}
+				}
+
+				&.car-type {
+					position: relative;
+					padding-bottom: 30px;
+				}
+			}
+
+			.cta-button {
+				position: relative;
+				padding: 30px 0;
+				text-align: center;
+				background: @gray-dark;
+			}
+		}
+	}
+
+	.short-cuts {
+		position: relative;
+		margin-top: 95px;
+		float: right;
+
+		li {
+			position: relative;
+			margin-bottom: 20px;
+			display: block;
+			width: 360px;
+			background: @yellow;
+
+			a {
+				display: block;
+				color: @gray-dark;
+
+				&:hover .icon-ahead {
+					background: @gray-dark;
+
+					i {
+						color: @yellow;
+					}
+				}
+
+				.icon-left {
+					display: inline-block;
+					width: 80px;
+					height: 80px;
+					text-align: center;
+					line-height: 80px;
+					background: @gray-dark;
+
+					i {
+						color: @yellow;
+						line-height: 80px;
+					}
+				}
+
+				.icon-ahead {
+					position: absolute;
+					right: 25px;
+					top: 25px;
+					display: inline-block;
+					width: 30px;
+					height: 30px;
+					text-align: center;
+					line-height: 30px;
+					background: @white;
+					.transition(all .2s ease-in-out); 
+
+					i {
+						color: @gray-dark;
+					}
+				}
+
+				span {
+					padding: 30px 65px 30px 30px;
+					display: inline-block;
+					vertical-align: top;
+				}
+			}
+		}
+
+		@media (max-width: @screen-md) {
+			margin: 40px auto 0 auto;
+			float: none;
+			width: 360px;
+		}
+	}
+
+	.intro-text {
+		position: relative;
+		margin-top: 100px;
+		float: right;
+		text-align: right;
+
+		h1 {
+			font-size: 48px;
+			color: @white;
+		}
+
+		h5 {
+			font-size: 18px;
+			color: @white;
+			line-height: 30px;
+		}
+
+		@media (max-width: @screen-md) {
+			margin-top: 30px;
+			float: none;
+			text-align: center;
+		}
+	}
+}
